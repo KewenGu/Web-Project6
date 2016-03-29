@@ -1,0 +1,108 @@
+/* Author: Kewen Gu */
+/* URL: https://kgu-cs4241-main.herokuapp.com */
+
+html
+{
+	background: url(../src/main-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	width: auto;
+	height: auto;
+	color: ivory;
+}
+
+body
+{
+	font-family: Georgia, sans-serif;
+}
+
+body > article
+{
+  	text-align: center;
+}
+
+h1
+{
+	text-transform: uppercase;
+  	font-family: 'Lobster', cursive;
+	font-size: 5em;
+	font-weight: 700;
+  	letter-spacing: 4px;
+  	margin: 100px 0 100px;
+}
+
+.header-note
+{
+	font-size: 1em;
+  	margin: 0 0 5px 0;
+}
+
+#video-player p
+{
+	text-align: center;
+	font-size: 2em;
+}
+
+#video-player
+{
+	width: 854px;
+	height: 480px;
+	margin: 0 auto 400px auto;
+	background-color: rgba(50, 50, 50, 0.4);
+}
+
+
+form
+{
+	margin: 10px 0 10px 0;
+}
+
+.text-field
+{
+	position: relative;
+	font-family: Georgia, sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+	width: 200px;
+	height: 20px;
+}
+
+button
+{
+	cursor: pointer;
+}
+
+.button
+{
+	cursor: pointer;
+}
+
+
+#movie-list
+{
+	margin: 0 35% 30px 35%;
+	text-align: left;
+}
+
+#movie-list input
+{
+	float: right;
+	border: none;
+	background: none;
+	font-size: 14px;
+	font-weight: bolder;
+}
+
+
+.quote
+{
+	font-size: 2em;
+	font-style: italic;
+	margin: 600px 0 390px;
+}
+
+.copyright
+{
+  	font-size: 0.8em;
+  	margin: auto auto 0 auto;
+}

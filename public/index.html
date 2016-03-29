@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CS4241-B15 Homework Assignment 5</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <!-- Author: Kewen Gu -->
+    <!-- URL: https://kgu-cs4241-main.herokuapp.com -->
+  </head>
+  <body>
+    <article>
+      <header>
+        <div id="header">
+          <h1 id="title">Assignment 6</h1>
+        </div>
+      </header>
+      <section>
+        <div id="media" align="center"></div>
+        <div id="forms">
+          <form>
+            <p class="header-note" id="list"><b>Browse the List of Pixar Movies</b></p>
+            <button type="submit" class="button" onclick="fullList();">Click here to see the full list</button>
+          </form>
+          <form>
+              <p class="header-note" id="filter">Please Enter the Keyword Below to Filter:</p>
+              <input type="text" name="search" id='filterBox'>
+              <input type="submit" value="Submit" class="button" onclick="operation('filterBox', '/filter');">
+          </form>
+          <form>
+              <p class="header-note" id="movies">Or, Add/Delete the movie of your choice:</p>
+              <input type="text" id="movieBox" required>
+              <input type="submit" value="Add" class="button" onclick="operation('movieBox', '/add');">
+          </form>
+
+          <br />
+          <div id="movie-list" align="center"></div>
+
+        </div>
+        <p class="quote">Challenge of the week: "Can you write Object Oriented CSS?"</p>
+      </section>
+      <footer>
+        <p class="copyright">CS 4241: Webware (Fall 2015)</p>
+        <p class="copyright">Worcester Polytechnic Institute</p>
+      </footer>
+    </article>
+  </body>
+  <script src="js/assign6.js"></script>
+</html>
